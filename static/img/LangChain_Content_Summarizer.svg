@@ -1,0 +1,49 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#f5f5f5" fill-opacity="0.05"/>
+
+  <!-- LangChain Content Summarizer Pipeline -->
+  <g transform="translate(50, 50)">
+    
+    <!-- Flow arrows -->
+    <path d="M120 200 L220 200" stroke="#007bff" stroke-width="3" stroke-dasharray="5,5"/>
+    <path d="M320 200 L420 200" stroke="#007bff" stroke-width="3" stroke-dasharray="5,5"/>
+    <path d="M520 200 L620 200" stroke="#007bff" stroke-width="3" stroke-dasharray="5,5"/>
+    
+    <!-- Arrow heads -->
+    <path d="M220 190 L240 200 L220 210 Z" fill="#007bff"/>
+    <path d="M420 190 L440 200 L420 210 Z" fill="#007bff"/>
+    <path d="M620 190 L640 200 L620 210 Z" fill="#007bff"/>
+
+    <!-- Data Input -->
+    <rect x="20" y="150" width="100" height="100" rx="10" ry="10" fill="#2a2f4f" opacity="0.8"/>
+    <text x="70" y="205" text-anchor="middle" fill="white" font-family="Arial" font-size="14">Data</text>
+    <text x="70" y="225" text-anchor="middle" fill="white" font-family="Arial" font-size="14">Input</text>
+
+    <!-- LangChain Processing -->
+    <rect x="240" y="150" width="100" height="100" rx="10" ry="10" fill="#2a2f4f" opacity="0.8"/>
+    <text x="290" y="205" text-anchor="middle" fill="white" font-family="Arial" font-size="14">LangChain</text>
+    <text x="290" y="225" text-anchor="middle" fill="white" font-family="Arial" font-size="14">Processing</text>
+
+    <!-- LLM Summarization -->
+    <rect x="440" y="150" width="100" height="100" rx="10" ry="10" fill="#2a2f4f" opacity="0.8"/>
+    <text x="490" y="205" text-anchor="middle" fill="white" font-family="Arial" font-size="14">LLM</text>
+    <text x="490" y="225" text-anchor="middle" fill="white" font-family="Arial" font-size="14">Summarization</text>
+
+    <!-- Output -->
+    <rect x="640" y="150" width="100" height="100" rx="10" ry="10" fill="#2a2f4f" opacity="0.8"/>
+    <text x="690" y="205" text-anchor="middle" fill="white" font-family="Arial" font-size="14">Summary</text>
+    <text x="690" y="225" text-anchor="middle" fill="white" font-family="Arial" font-size="14">Output</text>
+
+    <!-- Decorative Circles and Lines -->
+    <circle cx="255" cy="290" r="5" fill="#007bff" opacity="0.8"/>
+    <circle cx="270" cy="305" r="5" fill="#007bff" opacity="0.8"/>
+    <circle cx="285" cy="285" r="5" fill="#007bff" opacity="0.8"/>
+    <circle cx="300" cy="295" r="5" fill="#007bff" opacity="0.8"/>
+    <line x1="255" y1="290" x2="270" y2="305" stroke="#007bff" opacity="0.5"/>
+    <line x1="270" y1="305" x2="285" y2="285" stroke="#007bff" opacity="0.5"/>
+    <line x1="285" y1="285" x2="300" y2="295" stroke="#007bff" opacity="0.5"/>
+
+    <!-- Title -->
+    <text x="380" y="50" text-anchor="middle" fill="#2a2f4f" font-family="Arial" font-size="24" font-weight="bold">LangChain Content Summarizer</text>
+  </g>
+</svg>

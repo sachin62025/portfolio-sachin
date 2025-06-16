@@ -1,0 +1,35 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#f5f5f5" fill-opacity="0.1"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" fill="#2a2f4f" font-family="Arial" font-size="24" font-weight="bold">
+    QA Model Library
+  </text>
+
+  <!-- Input Question -->
+  <rect x="50" y="150" width="150" height="80" rx="10" ry="10" fill="#2a2f4f" opacity="0.8"/>
+  <text x="125" y="190" text-anchor="middle" fill="white" font-family="Arial" font-size="14">User Query</text>
+
+  <!-- NLP Processing -->
+  <rect x="250" y="150" width="150" height="80" rx="10" ry="10" fill="#e67e22" opacity="0.8"/>
+  <text x="325" y="190" text-anchor="middle" fill="white" font-family="Arial" font-size="14">NLP Processing</text>
+
+  <!-- QA Model -->
+  <rect x="450" y="150" width="150" height="80" rx="10" ry="10" fill="#3498db" opacity="0.8"/>
+  <text x="525" y="190" text-anchor="middle" fill="white" font-family="Arial" font-size="14">QA Model</text>
+
+  <!-- Response Generation -->
+  <rect x="650" y="150" width="150" height="80" rx="10" ry="10" fill="#27ae60" opacity="0.8"/>
+  <text x="725" y="190" text-anchor="middle" fill="white" font-family="Arial" font-size="14">Generated Answer</text>
+
+  <!-- Arrows -->
+  <path d="M200 190 L250 190" stroke="#000" stroke-width="3" stroke-dasharray="5,5"/>
+  <path d="M400 190 L450 190" stroke="#000" stroke-width="3" stroke-dasharray="5,5"/>
+  <path d="M600 190 L650 190" stroke="#000" stroke-width="3" stroke-dasharray="5,5"/>
+
+  <!-- Arrow heads -->
+  <path d="M250 180 L270 190 L250 200 Z" fill="#000"/>
+  <path d="M450 180 L470 190 L450 200 Z" fill="#000"/>
+  <path d="M650 180 L670 190 L650 200 Z" fill="#000"/>
+
+</svg>

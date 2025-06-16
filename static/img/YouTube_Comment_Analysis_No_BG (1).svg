@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Title -->
+  <text x="400" y="50" text-anchor="middle" fill="#D32F2F" font-family="Arial" font-size="24" font-weight="bold">
+    YouTube Comment Analysis
+  </text>
+  
+  <!-- Section: Data Extraction -->
+  <rect x="50" y="120" width="200" height="80" rx="10" ry="10" fill="#FF0000"/>
+  <text x="150" y="155" text-anchor="middle" fill="white" font-family="Arial" font-size="16" font-weight="bold">
+    Data Extraction
+  </text>
+  <text x="150" y="175" text-anchor="middle" fill="white" font-family="Arial" font-size="14">
+    YouTube API
+  </text>
+  
+  <!-- Arrow -->
+  <path d="M250 160 L300 160" stroke="#D32F2F" stroke-width="3" stroke-dasharray="5,5"/>
+  <path d="M300 150 L320 160 L300 170 Z" fill="#D32F2F"/>
+  
+  <!-- Section: Sentiment Analysis -->
+  <rect x="320" y="120" width="200" height="80" rx="10" ry="10" fill="#FF9800"/>
+  <text x="420" y="155" text-anchor="middle" fill="white" font-family="Arial" font-size="16" font-weight="bold">
+    Sentiment Analysis
+  </text>
+  <text x="420" y="175" text-anchor="middle" fill="white" font-family="Arial" font-size="14">
+    Emotion &amp; Toxicity Detection
+  </text>
+  
+  <!-- Arrow -->
+  <path d="M520 160 L570 160" stroke="#D32F2F" stroke-width="3" stroke-dasharray="5,5"/>
+  <path d="M570 150 L590 160 L570 170 Z" fill="#D32F2F"/>
+  
+  <!-- Section: Time-based Analysis -->
+  <rect x="590" y="120" width="200" height="80" rx="10" ry="10" fill="#4CAF50"/>
+  <text x="690" y="155" text-anchor="middle" fill="white" font-family="Arial" font-size="16" font-weight="bold">
+    Time-based Analysis
+  </text>
+  <text x="690" y="175" text-anchor="middle" fill="white" font-family="Arial" font-size="14">
+    Engagement Trends
+  </text>
+  
+  <!-- Decorative Icons (Circles) -->
+  <circle cx="150" cy="250" r="30" fill="red"/>
+  <circle cx="420" cy="250" r="30" fill="orange"/>
+  <circle cx="690" cy="250" r="30" fill="green"/>
+
+  <text x="150" y="255" text-anchor="middle" fill="white" font-family="Arial" font-size="14">NLP</text>
+  <text x="420" y="255" text-anchor="middle" fill="white" font-family="Arial" font-size="14">Web App</text>
+  <text x="690" y="255" text-anchor="middle" fill="white" font-family="Arial" font-size="14">Trends</text>
+</svg>

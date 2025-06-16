@@ -1,0 +1,134 @@
+{% extends "base.html" %}
+
+{% block title %}Projects - Sachin Kumar{% endblock %}
+
+{% block content %}
+<section class="projects py-5">
+    <div class="container">
+        <h2 data-aos="fade-up">My Projects</h2>
+        <p class="text-center mb-5" data-aos="fade-up" data-aos-delay="100">Explore my portfolio of machine learning and AI projects</p>
+        
+        <div class="row">
+            <!-- Project 1 -->
+            <div class="col-lg-6 mb-4" data-aos="fade-up">
+                <div class="project-card">
+                    <img src="{{ url_for('static', filename='img/ml-visual-1.svg') }}" alt="Movie Recommendation System" class="project-img">
+                    <div class="project-info">
+                        <h3>Graph-Based Movie Recommendation System</h3>
+                        <p>Designed and implemented an incremental training pipeline to update a Graph RAG-based recommendation system with new user-movie interactions. Optimized FAISS-based vector search for efficient similarity retrieval, reducing redundant computations and improving model update efficiency.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Graph RAG</span>
+                            <span class="project-tag">FAISS</span>
+                            <span class="project-tag">Recommendation Systems</span>
+                            <span class="project-tag">Machine Learning</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sachin62025/Movie-Recommendation-System" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-card">
+                    <img src="{{ url_for('static', filename='img/LangChain_Content_Summarizer.svg') }}" alt="LangChain Content Summarizer" class="project-img">
+                    <div class="project-info">
+                        <h3>LangChain Content Summarizer</h3>
+                        <p>Created an end-to-end application for summarizing content from various sources, including URLs, PDFs, YouTube videos, and direct text input. Leveraged the LangChain framework to enhance language model processing and efficient content extraction. Designed a user-friendly interface supporting multiple input formats for seamless and accessible summarization.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">LangChain</span>
+                            <span class="project-tag">NLP</span>
+                            <span class="project-tag">Content Extraction</span>
+                            <span class="project-tag">Language Models</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sachin62025/summary" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="col-lg-6 mb-4" data-aos="fade-up">
+                <div class="project-card">
+                    <img src="{{ url_for('static', filename='img/YouTube_Comment_Analysis_No_BG (1).svg') }}" alt="YouTube Comment Analysis" class="project-img">
+                    <div class="project-info">
+                        <h3>YouTube Comment Analysis</h3>
+                        <p>Developed an end-to-end web application for extracting and analyzing YouTube comments. Implemented sentiment analysis, emotion detection, and toxicity detection using NLP techniques. Conducted time-based comment analysis to identify engagement trends over different periods.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Sentiment Analysis</span>
+                            <span class="project-tag">NLP</span>
+                            <span class="project-tag">Web App</span>
+                            <span class="project-tag">YouTube API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sachin62025/YouTube-comment-analysis" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-card">
+                    <img src="{{ url_for('static', filename='img/Next_Word_Prediction_LSTM.svg') }}" alt="Next Word Prediction" class="project-img">
+                    <div class="project-info">
+                        <h3>Next Word Prediction Using LSTM RNN</h3>
+                        <p>Built an LSTM RNN model for next-word prediction to assist with predictive text. Enhanced model performance through hyperparameter optimization and data augmentation techniques. Achieved 95.67% accuracy, improving text prediction efficiency and fluency.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">LSTM</span>
+                            <span class="project-tag">RNN</span>
+                            <span class="project-tag">Predictive Text</span>
+                            <span class="project-tag">Deep Learning</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.kaggle.com/sachinkumar62" target="_blank"><i class="fab fa-kaggle"></i> Kaggle</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="col-lg-6 mb-4" data-aos="fade-up">
+                <div class="project-card">
+                    <img src="{{ url_for('static', filename='img/Deep_Learning_Text_Generation.svg') }}" alt="Deep Learning for Text Generation" class="project-img">
+                    <div class="project-info">
+                        <h3>Deep Learning for Text Generation</h3>
+                        <p>Developed and trained character-level LSTM (TensorFlow/Keras, loss: 1.4259) and custom GPT (PyTorch, loss: 1.1561) models on the Shakespeare dataset. Optimized GPT with accumulation of gradients, mixed precision training and top k / top p sampling for the generation of fluent and coherent text generation.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">LSTM</span>
+                            <!-- <span class="project-tag">GPT</span> -->
+                            <span class="project-tag">TensorFlow</span>
+                            <span class="project-tag">PyTorch</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.kaggle.com/code/sachinkumar62/nano-gpt" target="_blank"><i class="fab fa-kaggle"></i> Kaggle</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-card">
+                    <img src="{{ url_for('static', filename='img/QA_Model_Library.svg') }}" alt="QA Model Library" class="project-img">
+                    <div class="project-info">
+                        <h3>QA Model Library</h3>
+                        <p>Created a comprehensive library for question-answering models using various NLP techniques. Implemented multiple approaches including transformer-based models for efficient question answering on diverse datasets.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">QA Systems</span>
+                            <span class="project-tag">NLP</span>
+                            <span class="project-tag">Transformers</span>
+                            <span class="project-tag">Library</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://lnkd.in/g2zrnAKU" target="_blank"><i class="fas fa-link"></i> Project Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

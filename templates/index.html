@@ -1,0 +1,151 @@
+{% extends "base.html" %}
+
+{% block title %}Sachin Kumar - ML/AI Portfolio{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="hero-bg" style="background-image: url({{ url_for('static', filename='img/tech-bg-1.svg') }});"></div>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 order-lg-2 mb-5 mb-lg-0" data-aos="fade-left">
+                <div class="text-center">
+                    <img src="{{ url_for('static', filename='img/profile.svg') }}" alt="Sachin Kumar" class="profile-image img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-6 order-lg-1" data-aos="fade-right">
+                <h1>Hi, I'm <span class="text-highlight">Sachin Kumar</span></h1>
+                <p>Machine Learning & AI Enthusiast | ECE Student at IIIT Manipur</p>
+                <p>Passionate about developing innovative solutions using artificial intelligence and machine learning technologies.</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/sachin-kumar-4349a1257/" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/sachin62025" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.kaggle.com/sachinkumar62" target="_blank" class="social-link"><i class="fab fa-kaggle"></i></a>
+                    <a href="mailto:sachinkumar18449@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1CVp_BJW7YHxc9ti0h5FFaRv1nefp6moA/view?usp=sharing" target="_blank" class="resume-btn"><i class="fas fa-download me-2"></i>Download Resume</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-5">
+    <div class="container">
+        <h2 data-aos="fade-up">About Me</h2>
+        <div class="row">
+            <div class="col-lg-8 mx-auto" data-aos="fade-up" data-aos-delay="200">
+                <div class="about-content">
+                    <p>I'm Sachin Kumar, currently pursuing B.Tech in ECE at IIIT Manipur. I have a passion for machine learning and artificial intelligence, with a focus on developing practical applications that solve real-world problems.</p>
+                    <p>My journey in AI/ML has allowed me to work on diverse projects ranging from recommendation systems and content summarization to sentiment analysis and text generation. I enjoy the challenges of building intelligent systems and continuously improving them through experimentation and research.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Projects Section -->
+<section id="featured-projects" style="background-image: url({{ url_for('static', filename='img/tech-bg-2.svg') }});">
+    <div class="container">
+        <h2 data-aos="fade-up">Featured Projects</h2>
+        <div class="row">
+            <!-- Project 1 -->
+            <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
+                <div class="project-card">
+                    <img src="{{ url_for('static', filename='img/ml-visual-1.svg') }}" alt="Movie Recommendation System" class="project-img">
+                    <div class="project-info">
+                        <h3>Graph-Based Movie Recommendation System</h3>
+                        <p>Designed and implemented an incremental training pipeline to update a Graph RAG-based recommendation system with new user-movie interactions.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Graph RAG</span>
+                            <span class="project-tag">FAISS</span>
+                            <span class="project-tag">Recommendation Systems</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sachin62025/Movie-Recommendation-System" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-card">
+                    <img src="{{ url_for('static', filename='img/LangChain_Content_Summarizer.svg') }}" alt="LangChain Content Summarizer" class="project-img">
+                    <div class="project-info">
+                        <h3>LangChain Content Summarizer</h3>
+                        <p>Created an end-to-end application for summarizing content from various sources, including URLs, PDFs, YouTube videos, and direct text input.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">LangChain</span>
+                            <span class="project-tag">NLP</span>
+                            <span class="project-tag">Content Extraction</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sachin62025/summary" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="project-card">
+                    <img src="{{ url_for('static', filename='img/ml-visual-1.svg') }}" alt="YouTube Comment Analysis" class="project-img">
+                    <div class="project-info">
+                        <h3>YouTube Comment Analysis</h3>
+                        <p>Developed an end-to-end web application for extracting and analyzing YouTube comments with sentiment analysis, emotion detection, and toxicity detection.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Sentiment Analysis</span>
+                            <span class="project-tag">NLP</span>
+                            <span class="project-tag">Web App</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sachin62025/YouTube-comment-analysis" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4" data-aos="fade-up">
+            <a href="{{ url_for('projects') }}" class="resume-btn">View All Projects <i class="fas fa-arrow-right ms-2"></i></a>
+        </div>
+    </div>
+</section>
+
+<!-- Achievements Section -->
+<section id="achievements">
+    <div class="container">
+        <h2 data-aos="fade-up">Achievements</h2>
+        <div class="row">
+            <div class="col-lg-10 mx-auto">
+                <!-- Achievement 1 -->
+                <div class="achievement-card" data-aos="fade-up">
+                    <h3><i class="fas fa-trophy me-2"></i> Kaggle Notebook Expert</h3>
+                    <p>Earned the prestigious Kaggle Notebook Expert title by consistently creating high-impact notebooks in data analysis, visualization, and machine learning.</p>
+                </div>
+                
+                <!-- Achievement 2 -->
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="100">
+                    <h3><i class="fas fa-medal me-2"></i> Top 6% in Kaggle Challenges</h3>
+                    <p>Achieved top rankings in Kaggle Challenges, including Top 6% (63rd/1127) in NLP with Disaster Tweets by implementing advanced NLP models for disaster classification.</p>
+                </div>
+                
+                <!-- Achievement 3 -->
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="200">
+                    <h3><i class="fas fa-award me-2"></i> First Position in Circuit Debugger</h3>
+                    <p>Won first place in the Circuit Debugger college tech fest competition for two consecutive years (2024 and 2025).</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section Brief -->
+<section id="contact-brief" style="background-image: url({{ url_for('static', filename='img/tech-bg-1.svg') }});">
+    <div class="container text-center py-5">
+        <h2 data-aos="fade-up">Let's Connect</h2>
+        <p data-aos="fade-up" data-aos-delay="100">Have a project idea or question? Feel free to reach out!</p>
+        <a href="{{ url_for('contact') }}" class="resume-btn" data-aos="fade-up" data-aos-delay="200">Contact Me <i class="fas fa-paper-plane ms-2"></i></a>
+    </div>
+</section>
+{% endblock %}

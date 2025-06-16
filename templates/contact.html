@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+
+{% block title %}Contact - Sachin Kumar{% endblock %}
+
+{% block content %}
+<section class="contact py-5">
+    <div class="container">
+        <h2 data-aos="fade-up">Get In Touch</h2>
+        <p class="text-center mb-5" data-aos="fade-up" data-aos-delay="100">Feel free to contact me for any project ideas or questions</p>
+        
+        <div class="row">
+            <!-- Contact Information -->
+            <div class="col-lg-5 mb-4 mb-lg-0" data-aos="fade-up">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Phone</h4>
+                            <p><a href="tel:+916202529544">+91 6202529544</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <p><a href="mailto:sachinkumar18449@gmail.com">sachinkumar18449@gmail.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>LinkedIn</h4>
+                            <p><a href="https://www.linkedin.com/in/sachin-kumar-4349a1257/" target="_blank">Sachin Kumar</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>GitHub</h4>
+                            <p><a href="https://github.com/sachin62025" target="_blank">sachin62025</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-kaggle"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Kaggle</h4>
+                            <p><a href="https://www.kaggle.com/sachinkumar62" target="_blank">sachinkumar62</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Contact Form -->
+            <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
+                <div class="contact-form">
+                    <form method="POST" id="contactForm">
+                        {{ form.hidden_tag() }}
+                        
+                        <div class="mb-3">
+                            {{ form.name.label(class="form-label") }}
+                            {{ form.name(class="form-control", id="name", placeholder="Your Name") }}
+                        </div>
+                        
+                        <div class="mb-3">
+                            {{ form.email.label(class="form-label") }}
+                            {{ form.email(class="form-control", id="email", placeholder="Your Email") }}
+                        </div>
+                        
+                        <div class="mb-3">
+                            {{ form.subject.label(class="form-label") }}
+                            {{ form.subject(class="form-control", id="subject", placeholder="Subject") }}
+                        </div>
+                        
+                        <div class="mb-3">
+                            {{ form.message.label(class="form-label") }}
+                            {{ form.message(class="form-control", id="message", placeholder="Your Message", rows=5) }}
+                        </div>
+                        
+                        <div class="text-end">
+                            {{ form.submit(class="btn-submit") }}
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

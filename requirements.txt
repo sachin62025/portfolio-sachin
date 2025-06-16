@@ -1,0 +1,14 @@
+flask==3.0.0
+flask-mail==0.9.1
+python-dotenv==1.0.0
+requests==2.31.0
+WTForms==3.1.1 
+requests
+flask_wtf==1.2.2
+
+flask==3.0.0
+flask-mail==0.9.1
+flask-wtf==1.2.2
+python-dotenv==1.0.0
+requests==2.31.0
+WTForms==3.1.1

@@ -1,0 +1,89 @@
+Hello -> How i can hel you 
+How are you - > I am fine how i can help you 
+
+Here is persional information and related for me (name Sachin kumar )
+Name : SACHIN KUMAR , 
+phone number :  +91 6202529544 
+email:  sachinkumar18449@gmail.com 
+linkden: https://www.linkedin.com/in/sachin-kumar-4349a1257/
+github: https://www.github.com/  
+Kaggle: https://www.kaggle.com/sachinkumar62
+
+
+About Me
+I'm Sachin Kumar, currently pursuing B.Tech in ECE at IIIT Manipur. I have a passion for machine learning and artificial intelligence.
+
+
+project section :
+	
+1. Graph-Based Movie Recommendation System GitHub 
+• Designed and implemented an incremental training pipeline to update a Graph RAG-based recommendation
+system with new user-movie interactions.
+• Optimized FAISS-based vector search for efficient similarity retrieval, reducing redundant computations and
+improving model update efficiency.
+repo link : https://github.com/sachin62025/Movie-Recommendation-System
+
+2. LangChain Content Summarizer GitHub 
+• Created an end-to-end application for summarizing content from various sources, including URLs, PDFs, YouTube
+videos, and direct text input.
+• Leveraged the LangChain framework to enhance language model processing and efficient content extraction.
+• Designed a user-friendly interface supporting multiple input formats for seamless and accessible summarization.
+repo link : https://github.com/sachin62025/summary
+
+3. YouTube Comment Analysis GitHub 
+• Developed an end-to-end web application for extracting and analyzing YouTube comments.
+• Implemented sentiment analysis, emotion detection, and toxicity detection using NLP techniques.
+• Conducted time-based comment analysis to identify engagement trends over different periods.
+repo link : https://github.com/sachin62025/YouTube-comment-analysis
+
+4. Next Word Prediction Using LSTM RNN 
+• Built an LSTM RNN model for next-word prediction to assist with predictive text.
+• Enhanced model performance through hyperparameter optimization and data augmentation techniques.
+• Achieved 95.67% accuracy, improving text prediction efficiency and fluency.
+
+6. Deep Learning for Text Generation 
+• Developed and trained character-level LSTM (TensorFlow/Keras, loss: 1.4259) and custom GPT (PyTorch, loss:
+1.1561) models on the Shakespeare dataset.
+• Optimized GPT with accumulation of gradients, mixed precision training and top k / top p sampling for the
+generation of fluent and coherent text generation.
+repo link : https://www.kaggle.com/code/sachinkumar62/nano-gpt
+
+
+
+Achievements
+
+• Earned the prestigious Kaggle Notebook Expert title by consistently creating high-impact notebooks in data analysis,
+visualization, and machine learning.
+• Achieved top rankings in Kaggle Challenges, including Top 6% (63rd/1127) in NLP with Disaster Tweets by
+implementing advanced NLP models for disaster classification.
+• got first position on circuit debugger collage tech fest , two time 2024 and 2025 
+
+
+Skills
+Machine Learning: Supervised Learning, Unsupervised Learning, Regression, Classification.
+Deep Learning: ANN, CNN, RNN, LSTM, GRU
+Artificial Intelligence: LLMs, Generative AI, Transformers
+Natural Language Processing: NLTK, Text Processing, Sentiment Analysis
+Data Analysis: Data Preprocessing, Feature Engineering, Data Visualization (Matplotlib, Seaborn), Pandas
+Programming Languages: Python, C, C++, MYSQL, MongoDB, HTML, CSS
+Tools: BentoML, Git, Github, Docker, AirFLow, MLflow, CI/CD Pipeline, 
+
+
+Education section (for this i give html file for this make that type style )
+institute : Indian institute if information technology Senapati Manipur (web link : https://www.iiitmanipur.ac.in/) 
+2022 to 2026 
+
+Certifications (in this add link for corse in box )
+Deep Learning Specialization by Andrew Ng (Coursera)
+Supervised Learning by Andrew Ng (Coursera)
+Unsupervised Learning by Andrew Ng (Coursera)
+Python for Machine Learning & Data Science Masterclass by jose Portilla (Udemy)
+
+
+Contact Us
+Email: sachinkumar18449@gmail.com
+Phone: +91 6202529544
+https://www.linkedin.com/in/sachin-kumar-4349a1257/
+
+add resume link : https://drive.google.com/file/d/1CVp_BJW7YHxc9ti0h5FFaRv1nefp6moA/view?usp=sharing
+

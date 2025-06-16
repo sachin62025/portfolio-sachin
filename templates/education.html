@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% block title %}Education & Certifications - Sachin Kumar{% endblock %}
+
+{% block content %}
+<section class="education">
+    <div class="container">
+        <h2 data-aos="fade-up">Education Background</h2>
+        <div class="project-box" data-aos="fade-up" data-aos-delay="100">
+            <h3>Indian Institute of Information Technology, Senapati, Manipur</h3>
+            <p>B.Tech (Electronics and Communication Engineering)</p> 
+            <p>SPI for third year - 7.56</p>
+            <p><span>Duration:</span> 2022 - 2026</p>
+            <div class="more-details">
+                <a href="https://www.iiitmanipur.ac.in/" target="_blank">Visit Institute Website <i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+
+        <h2 class="mt-5" data-aos="fade-up">Online Certifications</h2>
+        
+        <div class="container">
+            <div class="project-box1" data-aos="fade-up" data-aos-delay="100">
+                <a href="https://www.udemy.com/certificate/UC-71b9710b-0a7b-4f8b-8549-488dd6f69128/" target="_blank" class="project-link">
+                    <img src="{{ url_for('static', filename='img/python_for_machine_learning.png') }}" alt="Python for Machine Learning">
+                    <div class="text-overlay">
+                        <p>Python for Machine Learning & Data Science Masterclass</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="project-box1" data-aos="fade-up" data-aos-delay="150">
+                <a href="https://www.coursera.org/account/accomplishments/verify/FCYQWWVL5S8H?" target="_blank" class="project-link">
+                    <img src="{{ url_for('static', filename='img/advanced-machine.png') }}" alt="Advanced Learning Algorithms">
+                    <div class="text-overlay">
+                        <p>Advanced Learning Algorithms</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="project-box1" data-aos="fade-up" data-aos-delay="200">
+                <a href="https://www.coursera.org/account/accomplishments/verify/S2A5FXZRTP3L" target="_blank" class="project-link">
+                    <img src="{{ url_for('static', filename='img/Supervised-Machine-Learning-Regression-and-Classification.png') }}" alt="Supervised Machine Learning">
+                    <div class="text-overlay">
+                        <p>Supervised Machine Learning: Regression and Classification</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="project-box1" data-aos="fade-up" data-aos-delay="250">
+                <a href="https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL24CS113S85970012704255174" target="_blank" class="project-link">
+                    <img src="{{ url_for('static', filename='img/NPTL-online-certification.png') }}" alt="NPTEL Python Certification">
+                    <div class="text-overlay">
+                        <p>NPTEL: The Joy of Computing using Python</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="project-box1" data-aos="fade-up" data-aos-delay="300">
+                <a href="https://www.coursera.org/account/accomplishments/verify/FCYQWWVL5S8H?" target="_blank" class="project-link">
+                    <img src="{{ url_for('static', filename='img/advanced-machine.png') }}" alt="Deep Learning Specialization">
+                    <div class="text-overlay">
+                        <p>Deep Learning Specialization by Andrew Ng</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
