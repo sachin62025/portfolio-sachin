@@ -1,0 +1,46 @@
+<svg width="600" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" fill="none">
+  <rect width="600" height="300" fill="#F4F9FF"></rect>
+
+  <!-- Prompt Bubble -->
+  <rect x="40" y="100" width="120" height="60" rx="10" fill="#D1E8FF" stroke="#007ACC" stroke-width="2"></rect>
+  <text x="55" y="135" fill="#007ACC" font-size="14" font-family="Arial">Text Prompt</text>
+
+  <!-- Arrow to Gemini -->
+  <line x1="160" y1="130" x2="200" y2="130" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"></line>
+
+  <!-- Gemini AI -->
+  <rect x="200" y="90" width="100" height="80" rx="10" fill="#E9DFFF" stroke="#8B5CF6" stroke-width="2"></rect>
+  <text x="215" y="125" fill="#8B5CF6" font-size="14" font-family="Arial">Gemini AI</text>
+
+  <!-- Arrow to Manim -->
+  <line x1="300" y1="130" x2="340" y2="130" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"></line>
+
+  <!-- Manim Block -->
+  <rect x="340" y="90" width="100" height="80" rx="10" fill="#D7FFE0" stroke="#34A853" stroke-width="2"></rect>
+  <text x="360" y="125" fill="#34A853" font-size="14" font-family="Arial">Manim</text>
+  <text x="355" y="145" fill="#34A853" font-size="12" font-family="Arial">Render Video</text>
+
+  <!-- Arrow to Video Output -->
+  <line x1="440" y1="130" x2="480" y2="130" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"></line>
+
+  <!-- Video Output -->
+  <rect x="480" y="100" width="80" height="60" rx="10" fill="#FFE9CC" stroke="#FF9900" stroke-width="2"></rect>
+  <polygon points="505,115 530,130 505,145" fill="#FF9900"></polygon>
+  <text x="490" y="95" fill="#FF9900" font-size="12" font-family="Arial">Video</text>
+
+  <!-- Text-to-Speech Symbol -->
+  <path d="M180 200 L200 190 L200 210 Z" fill="#007ACC"></path>
+  <path d="M205 190 C215 200, 215 200, 205 210" stroke="#007ACC" stroke-width="2"></path>
+  <text x="210" y="225" fill="#007ACC" font-size="12" font-family="Arial">Text-to-Speech</text>
+
+  <!-- FastAPI Tag -->
+  <rect x="450" y="200" width="100" height="30" rx="5" fill="#008060"></rect>
+  <text x="470" y="220" fill="white" font-size="14" font-family="Arial">FastAPI</text>
+
+  <!-- Arrowhead definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"></polygon>
+    </marker>
+  </defs>
+</svg>

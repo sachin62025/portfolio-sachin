@@ -1,0 +1,37 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" fill="none">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#F4F9FF"></rect>
+  
+  <!-- Australia Outline (simplified shape) -->
+  <path d="M450 270 Q440 240 460 220 Q470 210 460 190 Q440 170 430 160 Q420 140 410 130 Q400 120 390 130 Q370 140 360 130 Q350 120 340 130 Q330 140 320 160 Q310 180 300 190 Q290 200 280 210 Q270 220 280 240 Q300 260 320 270 Q340 280 360 285 Q380 290 400 285 Q420 280 440 275 Q450 270 450 270 Z" fill="#CCE5FF" stroke="#007ACC" stroke-width="2"></path>
+
+  <!-- Cloud -->
+  <ellipse cx="200" cy="120" rx="60" ry="30" fill="#D3EAFE"></ellipse>
+  <ellipse cx="250" cy="120" rx="50" ry="25" fill="#D3EAFE"></ellipse>
+  <ellipse cx="230" cy="100" rx="40" ry="20" fill="#D3EAFE"></ellipse>
+
+  <!-- Rain Drops -->
+  <line x1="200" y1="150" x2="200" y2="170" stroke="#007ACC" stroke-width="4" stroke-linecap="round"></line>
+  <line x1="220" y1="150" x2="220" y2="170" stroke="#007ACC" stroke-width="4" stroke-linecap="round"></line>
+  <line x1="240" y1="150" x2="240" y2="170" stroke="#007ACC" stroke-width="4" stroke-linecap="round"></line>
+
+  <!-- Bar Graph (ML performance) -->
+  <rect x="100" y="250" width="20" height="60" fill="#4CAF50"></rect>
+  <rect x="130" y="230" width="20" height="80" fill="#4CAF50"></rect>
+  <rect x="160" y="210" width="20" height="100" fill="#4CAF50"></rect>
+  <text x="100" y="320" fill="#333" font-size="12">Accuracy</text>
+
+  <!-- Gear (ML pipeline) -->
+  <circle cx="500" cy="80" r="25" stroke="#007ACC" stroke-width="4" fill="white"></circle>
+  <circle cx="500" cy="80" r="10" fill="#007ACC"></circle>
+  <!-- Gear teeth -->
+  <line x1="500" y1="45" x2="500" y2="35" stroke="#007ACC" stroke-width="3"></line>
+  <line x1="500" y1="115" x2="500" y2="125" stroke="#007ACC" stroke-width="3"></line>
+  <line x1="470" y1="80" x2="460" y2="80" stroke="#007ACC" stroke-width="3"></line>
+  <line x1="530" y1="80" x2="540" y2="80" stroke="#007ACC" stroke-width="3"></line>
+
+  <!-- Labels -->
+  <text x="190" y="95" font-size="14" fill="#333">Rain Prediction</text>
+  <text x="470" y="30" font-size="14" fill="#333">ML Pipeline</text>
+  <text x="340" y="300" font-size="14" fill="#007ACC">Australia</text>
+</svg>

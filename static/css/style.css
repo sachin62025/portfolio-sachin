@@ -874,3 +874,24 @@ footer {
     border: 1px solid rgba(220, 53, 69, 0.3);
     color: #dc3545;
 }
+
+
+
+
+
+.rain-prediction-img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+.weather-img {
+  width: 60%;         /* Resize the image width (adjust as needed) */
+  max-width: 500px;   /* Prevent it from getting too big on large screens */
+  height: auto;       /* Maintain aspect ratio */
+  display: block;     /* Remove extra spacing */
+  margin: 0 auto;     /* Center the image horizontally */
+  object-fit: contain;/* Prevent distortion */
+}

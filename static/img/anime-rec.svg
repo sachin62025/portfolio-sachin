@@ -1,0 +1,49 @@
+<svg width="600" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" fill="none">
+  <rect width="600" height="300" fill="#FFF7FD"></rect>
+
+  <!-- Anime Bot Head -->
+  <circle cx="80" cy="80" r="30" fill="#FFD5EC" stroke="#FF69B4" stroke-width="3"></circle>
+  <circle cx="70" cy="75" r="5" fill="#FF69B4"></circle>
+  <circle cx="90" cy="75" r="5" fill="#FF69B4"></circle>
+  <rect x="70" y="90" width="20" height="5" rx="2" fill="#FF69B4"></rect>
+  <text x="45" y="125" font-size="12" fill="#FF69B4" font-family="Arial">User</text>
+
+  <!-- Arrow to NLP -->
+  <line x1="110" y1="80" x2="160" y2="80" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"></line>
+
+  <!-- NLP Box -->
+  <rect x="160" y="50" width="100" height="60" rx="10" fill="#E3F2FD" stroke="#2196F3" stroke-width="2"></rect>
+  <text x="185" y="80" fill="#2196F3" font-size="14" font-family="Arial">NLP</text>
+  <text x="170" y="95" fill="#2196F3" font-size="10" font-family="Arial">Anime Content</text>
+
+  <!-- Arrow to ML Pipeline -->
+  <line x1="260" y1="80" x2="310" y2="80" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"></line>
+
+  <!-- ML Pipeline -->
+  <rect x="310" y="50" width="100" height="60" rx="10" fill="#E8F5E9" stroke="#43A047" stroke-width="2"></rect>
+  <text x="320" y="75" fill="#43A047" font-size="13" font-family="Arial">ML Pipeline</text>
+  <text x="315" y="92" fill="#43A047" font-size="10" font-family="Arial">Training + Model</text>
+
+  <!-- Arrow to Recommendation -->
+  <line x1="410" y1="80" x2="460" y2="80" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"></line>
+
+  <!-- Recommendation Output -->
+  <rect x="460" y="60" width="120" height="40" rx="10" fill="#FFF3E0" stroke="#FB8C00" stroke-width="2"></rect>
+  <text x="475" y="85" fill="#FB8C00" font-size="13" font-family="Arial">Anime Picks 🎌</text>
+
+  <!-- Tools Box Row -->
+  <g font-family="Arial" font-size="11">
+    <rect x="50" y="200" width="60" height="25" rx="5" fill="#90CAF9"></rect><text x="67" y="217" fill="#0D47A1">DVC</text>
+    <rect x="120" y="200" width="60" height="25" rx="5" fill="#FFE082"></rect><text x="132" y="217" fill="#EF6C00">Docker</text>
+    <rect x="190" y="200" width="60" height="25" rx="5" fill="#B39DDB"></rect><text x="203" y="217" fill="#4A148C">Jenkins</text>
+    <rect x="260" y="200" width="60" height="25" rx="5" fill="#A5D6A7"></rect><text x="277" y="217" fill="#1B5E20">GCP</text>
+    <rect x="330" y="200" width="80" height="25" rx="5" fill="#81D4FA"></rect><text x="345" y="217" fill="#01579B">Kubernetes</text>
+  </g>
+
+  <!-- Arrowhead Definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"></polygon>
+    </marker>
+  </defs>
+</svg>

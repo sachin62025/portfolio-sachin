@@ -12,7 +12,7 @@
             <!-- Project 1 -->
             <div class="col-lg-6 mb-4" data-aos="fade-up">
                 <div class="project-card">
-                    <img src="{{ url_for('static', filename='img/ml-visual-1.svg') }}" alt="Movie Recommendation System" class="project-img">
+                    <img src="{{ url_for('static', filename='img/ml-visual-1.svg') }}" alt="Movie Recommendation System" class="project-img weather-img">
                     <div class="project-info">
                         <h3>Graph-Based Movie Recommendation System</h3>
                         <p>Designed and implemented an incremental training pipeline to update a Graph RAG-based recommendation system with new user-movie interactions. Optimized FAISS-based vector search for efficient similarity retrieval, reducing redundant computations and improving model update efficiency.</p>
@@ -29,25 +29,55 @@
                 </div>
             </div>
 
-            <!-- Project 2 -->
-            <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <!-- Project 1-0 -->
+            <div class="col-lg-6 mb-4" data-aos="fade-up">
                 <div class="project-card">
-                    <img src="{{ url_for('static', filename='img/LangChain_Content_Summarizer.svg') }}" alt="LangChain Content Summarizer" class="project-img">
+                    <img src="{{ url_for('static', filename='img/weather-rain-prediction.svg') }}" alt="Australia Weather Rain Prediction" class="project-img weather-img">
                     <div class="project-info">
-                        <h3>LangChain Content Summarizer</h3>
-                        <p>Created an end-to-end application for summarizing content from various sources, including URLs, PDFs, YouTube videos, and direct text input. Leveraged the LangChain framework to enhance language model processing and efficient content extraction. Designed a user-friendly interface supporting multiple input formats for seamless and accessible summarization.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">LangChain</span>
-                            <span class="project-tag">NLP</span>
-                            <span class="project-tag">Content Extraction</span>
-                            <span class="project-tag">Language Models</span>
+                        <h3>Australia Weather Rain Prediction</h3>
+                        <p>Designed and deployed an end-to-end ML pipeline to predict rainfall using Python, Flask, and Scikit-learn,achieving 97% training accuracy on historical weather data. </p>
+                        <p>Containerized the application with Docker and deployed it to GCP Kubernetes Engine (GKE) using YAML manifests, enabling cloud-native scalability.</p>
+                         <div class="project-tags">
+                            <span class="project-tag">ML pipeline</span>
+                            <span class="project-tag">CircleCI</span>
+                            <span class="project-tag">GCP</span>
+                            <span class="project-tag">MLOps</span>
+                            <span class="project-tag">Docker</span>
+                            <span class="project-tag">Manifests</span>
+                            <span class="project-tag">Kubernetes</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/sachin62025/summary" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="https://github.com/sachin62025/Australia-Weather-Rain-Prediction" target="_blank"><i class="fab fa-github"></i> GitHub</a>
                         </div>
                     </div>
                 </div>
             </div>
+
+
+
+            <!-- Project 1-1 -->
+            <div class="col-lg-6 mb-4" data-aos="fade-up">
+                <div class="project-card">
+                    <img src="{{ url_for('static', filename='img/prompttovideo.svg') }}" alt="Prompt To Video" class="project-img">
+                    <div class="project-info">
+                        <h3>Prompt To Video</h3>
+                        <p> A web application that converts text prompts into animated videos using Manim and Google's Gemini AI. </p>
+                         <div class="project-tags">
+                            <span class="project-tag">Manim</span>
+                            <span class="project-tag">Google's Gemini AI</span>
+                            <span class="project-tag">text-to-speech</span>
+                            <span class="project-tag">FastAPI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sachin62025/PromptToVideo" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+
+
+
+
 
             <!-- Project 3 -->
             <div class="col-lg-6 mb-4" data-aos="fade-up">
@@ -128,6 +158,50 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Project 2x -->
+            <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-card">
+                    <img src="{{ url_for('static', filename='img/LangChain_Content_Summarizer.svg') }}" alt="LangChain Content Summarizer" class="project-img">
+                    <div class="project-info">
+                        <h3>LangChain Content Summarizer</h3>
+                        <p>Created an end-to-end application for summarizing content from various sources, including URLs, PDFs, YouTube videos, and direct text input. Leveraged the LangChain framework to enhance language model processing and efficient content extraction. Designed a user-friendly interface supporting multiple input formats for seamless and accessible summarization.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">LangChain</span>
+                            <span class="project-tag">NLP</span>
+                            <span class="project-tag">Content Extraction</span>
+                            <span class="project-tag">Language Models</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sachin62025/summary" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2x -->
+            <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-card">
+                    <img src="{{ url_for('static', filename='img/anime-rec.svg') }}" alt="LangChain Content Summarizer" class="project-img">
+                    <div class="project-info">
+                        <h3>Anime Recommender System</h3>
+                        <p>Anime Recommender System using an MLOps Workflow with a Machine Learning Pipeline, DVC, and Jenkins to deployed on GCP </p>
+                        <div class="project-tags">
+                            <span class="project-tag">DVC</span>
+                            <span class="project-tag">NLP</span>
+                            <span class="project-tag">Docker</span>
+                            <span class="project-tag">GCP</span>
+                            <span class="project-tag">Jenkins</span>
+                            <span class="project-tag">Kubernetes</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sachin62025/anime-recommender-system" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </div>
 </section>
